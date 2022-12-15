@@ -16,7 +16,6 @@ function SendData(){
 		let data=document;
 		var from1 = document.getElementsByName('start').value;
 // 		var from = document.getElementsByid('d1').value; 
-		data+=from1;
 // 		if (document.getElementByName("to1").checked==1) data+='from_the_owner ';
 		
 // 		if (document.getElementByName("start").checked==1) data+='Dubai ';
