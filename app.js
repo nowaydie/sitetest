@@ -14,7 +14,7 @@ let p = $(".inner2").detach();
 
 function SendData(){
 		let data='12345';
-// 		if (document.getElementByName("fromc").checked==1) data+='new_building ';
+		if (document.getElementByName("fromc")) data+=document.getElementByName("fromc"));
 // 		if (document.getElementByName("to1").checked==1) data+='from_the_owner ';
 		
 // 		if (document.getElementByName("start").checked==1) data+='Dubai ';
