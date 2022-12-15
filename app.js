@@ -13,7 +13,7 @@ let p = $(".inner2").detach();
 
 
 function SendData(){
-		let data=document;
+		let data='';
 		var from1 = document.getElementsByName('start').value;
 // 		var from = document.getElementsByid('d1').value; 
 // 		if (document.getElementByName("to1").checked==1) data+='from_the_owner ';
