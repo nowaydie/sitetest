@@ -6,41 +6,6 @@ let width = document.documentElement.scrollWidth;
 tg.expand();
 
 
-$("#slider2").ionRangeSlider({
-    type: "double",
-    skin:"round",
-    min: 0,
-    max: 60000000,
-    from: 0,
-    to: 60000000,
-    step: 500000,
-	postfix: '$',
-	hide_min_max: true,
-    onFinish: function (data) {
-    		cost_from=data.from;
-    		cost_to=data.to;
-    },
-
-});
-
-
-$("#slider1").ionRangeSlider({
-    type: "double",
-    skin:"round",
-    min: 0,
-    max: 60000000,
-    from: 0,
-    to: 60000000,
-    step: 500000,
-	postfix: '$',
-	hide_min_max: true,
-    onFinish: function (data) {
-    		cost_from=data.from;
-    		cost_to=data.to;
-    },
-
-});
-
 
 active = 1;
 $(".inner").appendTo($(".container"));
@@ -48,7 +13,7 @@ let p = $(".inner2").detach();
 
 
 function SendData(){
-		let data='1234';
+		let data='12345';
 		if (document.getElementByName("fromc").checked==1) data+='new_building ';
 		if (document.getElementByName("to1").checked==1) data+='from_the_owner ';
 		
