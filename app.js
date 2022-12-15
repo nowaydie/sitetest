@@ -13,7 +13,7 @@ let p = $(".inner2").detach();
 
 
 function SendData(){
-		let data='12345';
+		let data=document;
 		var from1 = document.getElementsByName('start').value;
 // 		var from = document.getElementsByid('d1').value; 
 		data+=from1;
