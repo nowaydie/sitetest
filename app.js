@@ -13,8 +13,9 @@ let p = $(".inner2").detach();
 
 
 function SendData(){
-		let data='123';
-// 		var from1 = document.getElementsByName('start').value;
+		let data='1234';
+ 		var from1 = document.getElementsByName('start').value;
+		data+=String(from1);
 // 		var from = document.getElementsByid('d1').value; 
 // 		if (document.getElementByName("to1").checked==1) data+='from_the_owner ';
 		
