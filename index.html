@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+	<script src="https://telegram.org/js/telegram-web-app.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>   
+	<link rel="stylesheet" href="style.css">
+	<title>Поиск билетов</title>
+</head>
+<body>
+<center>
+	<input type="text" name = "fromc" list="from1"  placeholder="Откуда">
+    <datalist id="from1">
+    <option>MOW</option>
+    <option>LED</option>
+    <option>OVB</option>
+    <option>AER</option>
+    <option>SYD</option>
+    <option>ANK</option>
+    </datalist>
+    <input type="text" name = "to1" list="to1"  placeholder="Куда">
+    <datalist id="to1">
+    <option>MOW</option>
+    <option>LED</option>
+    <option>OVB</option>
+    <option>AER</option>
+    <option>SYD</option>
+    <option>ANK</option>
+    </datalist></p>
+    <p><input name="start" type="date" value="2022-12-15" placeholder="Туда"> <input name="end" type="date" value=""  placeholder="Обратный"></p>
+    <input name="adult" type="number" placeholder="Количество взрослых" value=1 />
+    <input name="child" type="number" placeholder="Количество детей" value=0/>
+    <input type="types" name = "names" list="type1"  placeholder="Тип рейса">
+    <datalist id="type1">
+    <option>Эконом</option>
+    <option>Бизнес</option>
+    </datalist></p>
+    <input name="SEND" type="submit" value="Отправить" /></p>
+    </div>
+    </center>
+    </form>
+
+	<div class="btn1" onclick="SendData()">ПОИСК<img src="icon-search.png"></div>
+
+
+	<script src="app.js"></script>
+</body>
+</html>
+
+<!-- <script src="https://telegram.org/js/telegram-web-app.js"></script>
