@@ -48,7 +48,7 @@ let p = $(".inner2").detach();
 
 
 function SendData(){
-		let data='';
+		let data='123';
 		if (document.getElementByName("fromc").checked==1) data+='new_building ';
 		if (document.getElementByName("to1").checked==1) data+='from_the_owner ';
 		
@@ -59,7 +59,7 @@ function SendData(){
 		if (document.getElementByName("child").checked!=1) data+='villa ';
 
 
-		if (document.getElementByName("types").checked==1) data+='studio ';
+		if (document.getElementByName("").checked==1) data+='studio ';
 
 		console.log(data);
 		tg.sendData(data);
