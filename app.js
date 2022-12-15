@@ -14,8 +14,8 @@ let p = $(".inner2").detach();
 
 function SendData(){
 		let data='12345';
-		var from = document.getElementsByName('from')[0].value 
-		data+=from;
+// 		var from = document.getElementsByName('from')[0].value 
+// 		data+=from;
 // 		if (document.getElementByName("to1").checked==1) data+='from_the_owner ';
 		
 // 		if (document.getElementByName("start").checked==1) data+='Dubai ';
