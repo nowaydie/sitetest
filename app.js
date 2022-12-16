@@ -16,6 +16,8 @@ function SendData(){
 		let data='12345';
  		var from1 = document.getElementById('st1').value;
 		data+=from1;
+		var fm1 = document.getElementById('do1').value;
+		data+=fm1;
 // 		var from = document.getElementsByid('d1').value; 
 // 		if (document.getElementByName("to1").checked==1) data+='from_the_owner ';
 		
