@@ -1,0 +1,104 @@
+.tickets {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: azure;
+  box-shadow: -1px 2px 26px -2px rgba(34, 60, 80, 0.2);
+  border-radius: 15px;
+  font-family: "Open Sans", arial, sans-serif;
+  padding: 20px;
+}
+.tickets .travel-info {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+}
+.tickets .travel-info .departure {
+  display: flex;
+}
+.tickets .travel-info .departure .timeDeparture .time {
+  margin-bottom: 5px;
+}
+.tickets .travel-info .departure .timeDeparture .time p {
+  font-size: 24px;
+}
+.tickets .travel-info .departure .timeDeparture .city {
+  font-size: 16px;
+}
+.tickets .travel-info .arrival .time {
+  margin-bottom: 5px;
+}
+.tickets .travel-info .arrival .time p {
+  font-size: 24px;
+}
+.tickets .travel-info .arrival .city {
+  font-size: 16px;
+}
+.tickets .travel-info .companyImg img {
+  width: 100px;
+  height: 50px;
+}
+.tickets .times {
+  text-align: center;
+}
+.tickets .times .coltimes p {
+  font-size: 15px;
+  color: rgb(114, 114, 114);
+}
+.tickets .times .datetimes {
+  display: flex;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+.tickets .times .datetimes .hz {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-size: 15px;
+  color: rgb(114, 114, 114);
+}
+.tickets .times .datetimes .hz p.type {
+  font-size: 12px;
+  color: rgb(114, 114, 114);
+}
+.tickets .times .datetimes .date {
+  font-size: 14px;
+  color: rgb(114, 114, 114);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.tickets .priceBlock {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.tickets .priceBlock .price .cena {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: rgb(255, 189, 8);
+  font-family: "Open Sans", arial, sans-serif;
+}
+.tickets .priceBlock .price .cena span {
+  margin-left: 10px;
+}
+.tickets .priceBlock .price .onetext {
+  font-size: 12px;
+  color: rgb(114, 114, 114);
+}
+.tickets .priceBlock button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(4, 116, 214);
+  font-size: 16px;
+  padding: 20px;
+  border: 0px;
+  width: 180px;
+}
+
+div.button {
+  background-color: antiquewhite;
+  width: 20%;
+}/*# sourceMappingURL=travel.css.map */
